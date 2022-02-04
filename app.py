@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from main import text_to_speech
+from main.py import text_to_speech
 import os
     
 app = Flask(__name__)
